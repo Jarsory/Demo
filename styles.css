@@ -1,0 +1,100 @@
+
+body {
+    background: burlywood;
+    display:flex;
+
+  }
+
+  body #instrucciones {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: -320px;
+    position: center;
+}
+body #empezar {
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: -320px;
+  position: center;
+}
+
+  body #jugador1Button {
+    cursor: pointer;
+    font-size: 20px;
+    background-color:grey;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+    position: center;
+}
+body #jugador1Button:hover {
+  cursor: pointer;
+  background-color: palegoldenrod;
+  transition: all .3s;
+}
+
+#jugador2Button{
+  cursor: pointer;
+  font-size: 20px;
+  background-color:grey;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 60px;
+  position: center;
+}
+
+#jugador2Button:hover{
+  cursor: pointer;
+  background-color: palegoldenrod;
+  transition: all .3s;
+}
+
+body #restaurarButton {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  background-color: rgba(144, 238, 144, 0.95);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 70px;
+  position: center;
+}
+
+body #restaurarButton:hover {
+  cursor: pointer;
+  background-color: palegoldenrod;
+  transition: all .3s;
+}
+
+
+  .principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .tablero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tablero p{
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  canvas {
+    border: solid 1px white;
+  }

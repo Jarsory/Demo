@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='styles.css' rel='stylesheet'>
+</head>
+<body>
+   <div>
+        <div>
+            <p>Juego Múltiplos Snake</p>
+        </div>
+        
+        <button id="jugador1Button" class="uk-button" onclick="empieza1()"><b>JUGADOR 1</b></button>
+        <button id="jugador2Button" class="uk-button" onclick="empieza2()"><b>JUGADOR 2</b></button>
+        <button id="restaurarButton" class="disp" onclick=start()"><b>RESTAURAR</b></button>
+         
+       <br>
+       <br>
+        <div class="principal">
+            <div class="tablero">
+                <p id="vidas">Vidas</p>
+               
+                <p id="puntos">Puntos</p>
+                <p id="numeroMultiplicador"></p>
+            </div>    
+        </div>
+        <canvas width="800" height="500" id="game"></canvas>
+    </div>
+    
+    <script src='main.js'></script>
+</body>
+</html>
